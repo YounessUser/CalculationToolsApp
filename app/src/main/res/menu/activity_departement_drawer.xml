@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_principal"
+            android:icon="@drawable/list"
+            android:title="Menu Principal" />
+        <item
+            android:id="@+id/recherche"
+            android:icon="@drawable/search"
+            android:title="Recherche" />
+        <item
+            android:id="@+id/statistique"
+            android:icon="@drawable/search"
+            android:title="Statistique" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/deconnecter"
+                android:icon="@drawable/action_user"
+                android:title="deconnecterdeconnecter" />
+
+        </menu>
+    </item>
+
+</menu>

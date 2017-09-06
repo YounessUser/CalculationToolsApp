@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/detail"
+        android:showAsAction="ifRoom|withText"
+        android:title="Détail"
+        android:visible="true"/>
+    <item
+        android:id="@+id/editer"
+        android:showAsAction="ifRoom|withText"
+        android:title="Editer"
+        android:visible="true"/>
+    <item
+        android:id="@+id/stat"
+        android:showAsAction="ifRoom|withText"
+        android:title="Statistique"
+        android:visible="true"/>
+</menu>
